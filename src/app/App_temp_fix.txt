@@ -1,0 +1,14 @@
+                    <div className="flex items-start justify-between py-2">
+                      <span className="text-gray-600 font-medium">Distribusi :</span>
+                      <button
+                        onClick={() => {
+                          setSelectedProduct(null);
+                          handleNavigate('b2b');
+                        }}
+                        className="group flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
+                        aria-label="Business to Business"
+                      >
+                        <Building2 size={18} className="group-hover:scale-110 transition-transform duration-300" />
+                        <span className="font-semibold text-sm">Business to Business</span>
+                      </button>
+                    </div>
