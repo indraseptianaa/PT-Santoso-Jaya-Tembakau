@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { useState, useRef, useEffect } from 'react';
@@ -53,7 +53,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
         <div 
           className="absolute top-0 left-0 w-full h-screen z-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Tentang%20Kami.png?raw=true")',
+            backgroundImage: 'url("/BG%20Tentang%20Kami.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -116,7 +116,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               <div 
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Visi.png?raw=true")',
+                  backgroundImage: 'url("/BG%20Visi.png")',
                   backgroundAttachment: 'fixed',
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
@@ -143,7 +143,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               <div 
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Misi.png?raw=true")',
+                  backgroundImage: 'url("/BG%20Misi.png")',
                   backgroundAttachment: 'fixed',
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
@@ -160,19 +160,19 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4">Misi Kami</h3>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-white/90">
                   <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">•</span>
+                    <span className="text-white mt-1">â€¢</span>
                     <span>Memiliki tata kelola yang profesional dan berintegritas.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">•</span>
+                    <span className="text-white mt-1">â€¢</span>
                     <span>Membuat produk rajangan tembakau yang berkualitas untuk memenuhi harapan konsumen</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">•</span>
+                    <span className="text-white mt-1">â€¢</span>
                     <span>Melakukan pengembangan secara kreatif dan inovatif terkait produk yang dihasilkan perusahaan.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-white mt-1">•</span>
+                    <span className="text-white mt-1">â€¢</span>
                     <span>Memberikan sumbangsih sosial yang saling menguntungkan antara perusahaan dengan masyarakat.</span>
                   </li>
                 </ul>
@@ -203,7 +203,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
           <div 
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Sejarah%20Awal.png?raw=true")',
+              backgroundImage: 'url("/Sejarah%20Awal.png")',
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -243,7 +243,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
           <div 
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Generasi%20Kedua.png?raw=true")',
+              backgroundImage: 'url("/BG%20Generasi%20Kedua.png")',
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -288,7 +288,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
           <div 
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Pengembangans.png?raw=true")',
+              backgroundImage: 'url("/BG%20Pengembangans.png")',
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -352,7 +352,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               className="relative overflow-hidden rounded-2xl aspect-[9/16] group"
             >
               <ImageWithFallback
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20INTEGRITAS.png?raw=true"
+                src="/BG%20INTEGRITAS.png"
                 alt="Integritas"
                 className="w-full h-full object-cover"
               />
@@ -379,7 +379,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               className="relative overflow-hidden rounded-2xl aspect-[9/16] group"
             >
               <ImageWithFallback
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20KUALITAS.png?raw=true"
+                src="/BG%20KUALITAS.png"
                 alt="Kualitas"
                 className="w-full h-full object-cover"
               />
@@ -406,7 +406,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               className="relative overflow-hidden rounded-2xl aspect-[9/16] group"
             >
               <ImageWithFallback
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20INOVASI.png?raw=true"
+                src="/BG%20INOVASI.png"
                 alt="Inovasi"
                 className="w-full h-full object-cover"
               />
@@ -433,7 +433,7 @@ export function TentangKamiPage({ onNavigate, onNavigateToLogin, onNavigateToSig
               className="relative overflow-hidden rounded-2xl aspect-[9/16] group"
             >
               <ImageWithFallback
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20KOLABORASI.png?raw=true"
+                src="/BG%20KOLABORASI.png"
                 alt="Kolaborasi"
                 className="w-full h-full object-cover"
               />

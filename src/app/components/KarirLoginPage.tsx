@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff, ArrowLeft, AlertCircle, Shield, Briefcase } from 'lucide-react';
 import * as OTPAuth from 'otpauth';
 
@@ -266,7 +266,7 @@ export function KarirLoginPage({ onLoginSuccess, onNavigateToSignup, onBack, onH
             <div className="flex items-center gap-4 mb-8">
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 border border-white/30">
                 <img 
-                  src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                  src="/Logo%20PT%20Santoso.png"
                   alt="PT Santoso Jaya Tembakau"
                   className="h-12 w-auto"
                 />
@@ -290,7 +290,7 @@ export function KarirLoginPage({ onLoginSuccess, onNavigateToSignup, onBack, onH
           </div>
 
           <div className="relative z-10 text-white/80 text-sm">
-            <p>© 2024 PT Santoso Jaya Tembakau. All rights reserved.</p>
+            <p>Â© 2024 PT Santoso Jaya Tembakau. All rights reserved.</p>
           </div>
         </div>
 
@@ -359,7 +359,7 @@ export function KarirLoginPage({ onLoginSuccess, onNavigateToSignup, onBack, onH
       {/* Left Side - Branding Karir */}
       <div className="hidden lg:flex lg:w-1/2 p-12 flex-col justify-between relative overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Landing%20Page%20Section%20Siapa%20Kami.png?raw=true)' }}></div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/Landing%20Page%20Section%20Siapa%20Kami.png)' }}></div>
         
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
@@ -371,7 +371,7 @@ export function KarirLoginPage({ onLoginSuccess, onNavigateToSignup, onBack, onH
           <div className="flex items-center gap-4 mb-8">
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 border border-white/30">
               <img 
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                src="/Logo%20PT%20Santoso.png"
                 alt="PT Santoso Jaya Tembakau"
                 className="h-12 w-auto"
               />
@@ -406,7 +406,7 @@ export function KarirLoginPage({ onLoginSuccess, onNavigateToSignup, onBack, onH
         </div>
 
         <div className="relative z-10 text-white/80 text-sm">
-          <p>© 2024 PT Santoso Jaya Tembakau. All rights reserved.</p>
+          <p>Â© 2024 PT Santoso Jaya Tembakau. All rights reserved.</p>
         </div>
       </div>
 

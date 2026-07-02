@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -11,51 +11,51 @@ export function TembakauTSGPreview() {
   const initialProducts: TembakauProduct[] = [
     {
       name: 'TSG BOLD',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png',
     },
     {
       name: 'TSG KRETEK',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png',
     },
     {
       name: 'TSG MILD',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png',
     },
     {
       name: 'TSG PUTIHAN',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png',
     },
     {
       name: 'TSG REGULER',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png',
     },
     {
       name: 'TSG UPON REQUEST',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png',
     },
     {
       name: 'TSG BOLD',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png',
     },
     {
       name: 'TSG KRETEK',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png',
     },
     {
       name: 'TSG MILD',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png',
     },
     {
       name: 'TSG PUTIHAN',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png',
     },
     {
       name: 'TSG REGULER',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png',
     },
     {
       name: 'TSG UPON REQUEST',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png?raw=true',
+      baseImage: '/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png',
     },
   ];
 
@@ -193,3 +193,4 @@ export function TembakauTSGPreview() {
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-// Footer Component
+﻿// Footer Component
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, MessageCircle, Video, Youtube } from 'lucide-react';
 
@@ -29,7 +29,7 @@ export function Footer({ onNavigate }: FooterProps) {
           <div className="space-y-4">
             <div className="bg-white rounded-xl p-3 border border-amber-200 inline-block shadow-md">
               <img
-                src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                src="/Logo%20PT%20Santoso.png"
                 alt="PT Santoso Jaya Tembakau Logo"
                 className="h-20 w-auto object-contain"
                 onError={(e) => {
@@ -113,7 +113,7 @@ export function Footer({ onNavigate }: FooterProps) {
             {/* QR Maps Image */}
             <div className="mb-4">
               <ImageWithFallback
-                src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/QR%20Maps%20Footer.png?raw=true"
+                src="/QR%20Maps%20Footer.png"
                 alt="Maps Lokasi PT Santoso Jaya Tembakau"
                 className="w-48 rounded-lg shadow-lg"
               />
@@ -183,7 +183,7 @@ export function Footer({ onNavigate }: FooterProps) {
         <div className="mt-12 pt-8 border-t border-white/30">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/90 text-sm">
-              © {currentYear} PT Santoso Jaya Tembakau. All rights reserved.
+              Â© {currentYear} PT Santoso Jaya Tembakau. All rights reserved.
             </p>
             <div className="flex gap-6">
               <button className="text-white/90 hover:text-white text-sm transition-colors">

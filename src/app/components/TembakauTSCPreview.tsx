@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -11,87 +11,87 @@ export function TembakauTSCPreview() {
   const initialProducts: TembakauProduct[] = [
     {
       name: 'EXPANDED DOUBLE CUTTER',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png',
     },
     {
       name: 'EXPANDED SINGLE CUT',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png',
     },
     {
       name: 'FINES KASTURI',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20KASTURI.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/FINES%20KASTURI.png',
     },
     {
       name: 'FINES PAITON',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20PAITON.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/FINES%20PAITON.png',
     },
     {
       name: 'FINES RAJANG MADURA',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png',
     },
     {
       name: 'PAITON TRASING',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAITON%20TRASING.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/PAITON%20TRASING.png',
     },
     {
       name: 'PAKPIE',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAKPIE.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/PAKPIE.png',
     },
     {
       name: 'FINES',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/FINES.png',
     },
     {
       name: 'EXPANDED',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/EXPANDED.png',
     },
     {
       name: 'MATA AYAM YUNAN',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png',
     },
     {
       name: 'MATA AYAM KASTURI',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png',
     },
     {
       name: 'MATA AYAM MADURA',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png',
     },
     {
       name: 'MATA AYAM LOMBOK',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png',
     },
     {
       name: 'UPON REQUEST',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/UPON%20REQUEST.png',
     },
     {
       name: 'FINES',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/FINES.png',
     },
     {
       name: 'EXPANDED',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/EXPANDED.png',
     },
     {
       name: 'MATA AYAM YUNAN',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png',
     },
     {
       name: 'MATA AYAM KASTURI',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png',
     },
     {
       name: 'MATA AYAM MADURA',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png',
     },
     {
       name: 'MATA AYAM LOMBOK',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png',
     },
     {
       name: 'UPON REQUEST',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true',
+      baseImage: '/Produk%20TSC%20SJT/UPON%20REQUEST.png',
     },
   ];
 

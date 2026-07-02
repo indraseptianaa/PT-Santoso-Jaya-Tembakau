@@ -1,4 +1,4 @@
-// Header Component with Navigation
+﻿// Header Component with Navigation
 import { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Search } from 'lucide-react';
 
@@ -147,7 +147,7 @@ export function Header({ currentPage, onNavigate, onNavigateToLogin, onNavigateT
                 onClick={() => onNavigate('landing')}
               >
                 <img
-                  src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                  src="/Logo%20PT%20Santoso.png"
                   alt="PT Santoso Jaya Tembakau"
                   className="h-16 w-auto drop-shadow-lg"
                   onError={(e) => {

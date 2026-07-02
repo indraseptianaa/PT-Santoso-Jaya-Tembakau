@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Mail } from 'lucide-react';
@@ -20,7 +20,7 @@ export function KontakPage({ onNavigate }: KontakPageProps) {
         <div 
           className="absolute top-0 left-0 w-full h-screen z-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Latar%20Belakang%20Kontak%20Section%20Atas.png?raw=true")',
+            backgroundImage: 'url("/Latar%20Belakang%20Kontak%20Section%20Atas.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',

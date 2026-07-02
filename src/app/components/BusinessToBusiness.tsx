@@ -1,4 +1,4 @@
-import { Building2, Mail, Phone, MapPin, Users, Handshake, TrendingUp, Shield, Clock, Globe, ArrowRight } from 'lucide-react';
+﻿import { Building2, Mail, Phone, MapPin, Users, Handshake, TrendingUp, Shield, Clock, Globe, ArrowRight } from 'lucide-react';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { ImageWithFallback } from './figma/ImageWithFallback';
@@ -45,7 +45,7 @@ export function BusinessToBusiness({ onNavigate }: BusinessToBusinessProps) {
         <div 
           className="absolute top-0 left-0 w-full h-screen z-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Manajmen%20NNA.jpg?raw=true")',
+            backgroundImage: 'url("/Manajmen%20NNA.jpg")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -75,7 +75,7 @@ export function BusinessToBusiness({ onNavigate }: BusinessToBusinessProps) {
                 <div className="mb-8">
                   <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-4 inline-block">
                     <img 
-                      src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT.NNA.png?raw=true" 
+                      src="/Logo%20PT.NNA.png" 
                       alt="Logo PT. Niaga Nusa Abadi" 
                       className="h-16 md:h-20 object-contain"
                     />
@@ -119,7 +119,7 @@ export function BusinessToBusiness({ onNavigate }: BusinessToBusinessProps) {
             <div className="mb-12 flex justify-center">
               <div className="bg-white rounded-2xl shadow-xl p-6 inline-block">
                 <img 
-                  src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                  src="/Logo%20PT%20Santoso.png"
                   alt="PT Santoso Jaya Tembakau"
                   className="h-20 md:h-24"
                 />

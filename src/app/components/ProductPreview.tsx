@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -11,43 +11,43 @@ export function ProductPreview() {
   const initialProducts: Product[] = [
     {
       name: '358 16 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG',
     },
     {
       name: 'Sosrobahu Premium 16 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG',
     },
     {
       name: 'Bahamas 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG',
     },
     {
       name: 'Sosrobahu Santos Filter 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG',
     },
     {
       name: '358 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG',
     },
     {
       name: 'Bahamas 20 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG',
     },
     {
       name: 'Santos Bahamas Filter 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG',
     },
     {
       name: 'Kupu Biru 16 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG',
     },
     {
       name: 'Sosrobahu Kopi Hitam 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG',
     },
     {
       name: 'Sosrobahu 12 Batang',
-      baseImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG',
+      baseImage: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG',
     },
   ];
 
@@ -70,7 +70,7 @@ export function ProductPreview() {
 
   const getImageUrl = (baseImage: string, index: number) => {
     const orientation = index < Math.ceil(products.length / 2) ? 'KANAN' : 'KIRI';
-    return `${baseImage}%20${orientation}.png?raw=true`;
+    return `${baseImage}%20${orientation}.png`;
   };
 
   const getDisplayedProducts = () => {

@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Calendar, User, Clock, ArrowRight, Share2, Check } from 'lucide-react';
@@ -19,7 +19,7 @@ const blogPosts = [
     date: '26 Juni 2023',
     readTime: '5 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Ekspor%20ke%20Negara%20Cambodia%2026%20Juni%202023.jpg?raw=true',
+    image: '/Ekspor%20ke%20Negara%20Cambodia%2026%20Juni%202023.jpg',
     content: `
       <h3>Ekspor Perdana ke Cambodia</h3>
       <p>PT. Santoso Jaya Tembakau berhasil melakukan ekspor tembakau ke negara Cambodia pada tanggal 26 Juni 2023. Ini merupakan pencapaian penting dalam ekspansi pasar internasional perusahaan ke kawasan Asia Tenggara.</p>
@@ -48,7 +48,7 @@ const blogPosts = [
     date: '25 September 2024',
     readTime: '4 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Ekspor%2025%20September%202025.jpg?raw=true',
+    image: '/Ekspor%2025%20September%202025.jpg',
     content: `
       <h3>Ekspor Kembali ke China</h3>
       <p>Perusahaan PT. Santoso Jaya Tembakau melakukan ekspor kembali ke negara China pada tanggal 25 September 2024. Ini merupakan kelanjutan dari kerja sama yang telah terjalin sejak ekspor pertama pada 16 Mei 2023, membuktikan konsistensi kualitas produk kami.</p>
@@ -74,7 +74,7 @@ const blogPosts = [
     date: '16 Mei 2023',
     readTime: '4 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Ekspor%20China%2016%20Mei%202023.jpg?raw=true',
+    image: '/BG%20Ekspor%20China%2016%20Mei%202023.jpg',
     content: `
       <h3>Pencapaian Ekspor Bersejarah</h3>
       <p>Perusahaan PT. Santoso Jaya Tembakau pada 16 Mei 2023 berhasil mengekspor Tembakau CUT RAG sebanyak 13 Ton ke negara China. Pencapaian ini merupakan tonggak penting dalam perjalanan perusahaan untuk memperluas jangkauan pasar internasional.</p>
@@ -100,7 +100,7 @@ const blogPosts = [
     date: '1 Desember 2024',
     readTime: '4 menit',
     category: 'Produk',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Blog%20Bagian%20Produk%20Kami.png?raw=true',
+    image: '/BG%20Blog%20Bagian%20Produk%20Kami.png',
     content: `
       <h3>Tembakau Siap Campur (TSC)</h3>
       <p>Kami memiliki berbagai produk tembakau siap giling atau tembakau yang sudah siap di di pakai produksi, seperti TSG Kretek, TSG Mild, TSG Bold, TSG Reguler dan lain sebagainya sesuai dengan pemesanan.</p>
@@ -123,7 +123,7 @@ const blogPosts = [
     date: '25 November 2024',
     readTime: '5 menit',
     category: 'SDM',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Pengembangans.png?raw=true',
+    image: '/BG%20Pengembangans.png',
     content: `
       <h3>Ekspansi Tahun 2023</h3>
       <p>Pada tahun 2023, generasi kedua CV. Santoso Jaya Tembakau melanjutkan tongkat estafet kepemimpinan dengan membangun perusahaan kedua yang berlokasi di Pakeongan, Baujeng, Kecamatan Beji, Pasuruan, Jawa Timur 67154. Pada tahun yang sama, perusahaan juga memperluas lini usaha dari produksi tembakau menjadi pengembangan produk rokok Sigaret Kretek Tangan (SKT).</p>
@@ -142,7 +142,7 @@ const blogPosts = [
     date: '20 November 2024',
     readTime: '8 menit',
     category: 'Teknologi',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Generasi%20Kedua.png?raw=true',
+    image: '/BG%20Generasi%20Kedua.png',
     content: `
       <h3>Transformasi Tahun 2020</h3>
       <p>Tahun 2020, dengan berbekal Tekat, Keberanian, Kerja cerdas, Kejujuran dan Keimanan, Generasi kedua berkomitmen untuk menaikkan kualitas industri yang awalnya rumahan menjadi Persekutaan Komanditer.</p>
@@ -159,7 +159,7 @@ const blogPosts = [
     date: '15 November 2024',
     readTime: '6 menit',
     category: 'Kemitraan',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Tentang%20Kami.png?raw=true',
+    image: '/BG%20Tentang%20Kami.png',
     content: `
       <h3>Visi</h3>
       <p>Kami mempunyai komitmen untuk menjadi perusahaan besar pemasok kebutuhan tembakau bagi industri rokok domestik dan internasional, dengan mengutamakan nilai-nilai inovasi, kepuasan dan kualitas dalam setiap produk.</p>
@@ -173,7 +173,7 @@ const blogPosts = [
       </ul>
       
       <h3>Nilai Kami</h3>
-      <p>Dengan fokus kepada kualitas dan inovasi, perusahaan kami bergerak dalam budidaya, pengolahan, dan pembuatan produk tembakau premium, termasuk beragam jenis rokok. Berkomitmen terhadap keunggulan, PT Santoso Jaya Tembakau memastikan kontrol kualitas yang ketat di setiap tahap—mulai dari pengadaan bahan mentah hingga produksi—untuk menghasilkan produk yang memenuhi standar tinggi.</p>
+      <p>Dengan fokus kepada kualitas dan inovasi, perusahaan kami bergerak dalam budidaya, pengolahan, dan pembuatan produk tembakau premium, termasuk beragam jenis rokok. Berkomitmen terhadap keunggulan, PT Santoso Jaya Tembakau memastikan kontrol kualitas yang ketat di setiap tahapâ€”mulai dari pengadaan bahan mentah hingga produksiâ€”untuk menghasilkan produk yang memenuhi standar tinggi.</p>
     `
   },
   {
@@ -184,7 +184,7 @@ const blogPosts = [
     date: '10 November 2024',
     readTime: '5 menit',
     category: 'Prestasi',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Sejarah%20Awal.png?raw=true',
+    image: '/Sejarah%20Awal.png',
     content: `
       <p>Berdiri sejak 2006, PT. Santoso Jaya Tembakau berawal sebagai industri rumahan yang didirikan oleh Bapak Santoso, wirausahawan berpengalaman puluhan tahun di bidang tembakau dan rokok.</p>
     `

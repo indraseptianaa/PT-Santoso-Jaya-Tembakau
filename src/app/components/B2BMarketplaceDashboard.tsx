@@ -1,4 +1,4 @@
-import { ShoppingCart, Package, TrendingUp, DollarSign, Search, Filter, ChevronDown, ChevronLeft, User, LogOut, Bell, Settings, Clock, CheckCircle, XCircle, LayoutDashboard, FileText, UserCircle, Menu, X, Play, Pause, Volume2, Handshake, Upload, Send, CreditCard, PackageCheck, Truck, Star, Shield, Copy, Check, AlertTriangle, Smartphone, Facebook, Instagram, Youtube, HelpCircle } from 'lucide-react';
+﻿import { ShoppingCart, Package, TrendingUp, DollarSign, Search, Filter, ChevronDown, ChevronLeft, User, LogOut, Bell, Settings, Clock, CheckCircle, XCircle, LayoutDashboard, FileText, UserCircle, Menu, X, Play, Pause, Volume2, Handshake, Upload, Send, CreditCard, PackageCheck, Truck, Star, Shield, Copy, Check, AlertTriangle, Smartphone, Facebook, Instagram, Youtube, HelpCircle } from 'lucide-react';
 import { useState } from 'react';
 import React from 'react';
 
@@ -17,11 +17,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.250 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KANAN.png',
     discount: '10%',
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg',
     videoUrls: [],
   },
   {
@@ -31,11 +31,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '890 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KANAN.png',
     discount: null,
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg',
     videoUrls: [],
   },
   {
@@ -45,11 +45,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '2.100 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KANAN.png',
     discount: '5%',
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg',
     videoUrls: [],
   },
   {
@@ -59,7 +59,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.500 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KANAN.png',
     discount: null,
     jenis: 'Sigaret Kretek Mesin (SKM)',
     kemasan: 'Hard pack',
@@ -73,11 +73,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.800 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png',
     discount: '8%',
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg',
     videoUrls: [],
   },
   {
@@ -87,11 +87,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '950 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KANAN.png',
     discount: null,
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg',
     videoUrls: [],
   },
   {
@@ -101,7 +101,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.200 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KANAN.png',
     discount: '12%',
     jenis: 'Sigaret Kretek Mesin (SKM)',
     kemasan: 'Hard pack',
@@ -115,11 +115,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.100 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KANAN.png',
     discount: '7%',
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20kupu%20biru.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/Latar%20Belakang%20kupu%20biru.jpg',
     videoUrls: [],
   },
   {
@@ -129,11 +129,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.650 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KANAN.png',
     discount: null,
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/latar%20belakang%20sosrobahu%20kopi%20hitam.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/latar%20belakang%20sosrobahu%20kopi%20hitam.jpg',
     videoUrls: [],
   },
   {
@@ -143,11 +143,11 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per karton',
     stock: '1.950 karton',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KANAN.png?raw=true',
+    image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KANAN.png',
     discount: '6%',
     jenis: 'Sigaret Kretek Tangan (SKT)',
     kemasan: 'Hard pack',
-    backgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/latar%20belakang%20sosrobahu%20original.jpg?raw=true',
+    backgroundImage: '/Design%20Produk/latar%20belakang%20sosrobahu%20original.jpg',
     videoUrls: [],
   },
 
@@ -159,7 +159,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '8.000 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png?raw=true',
+    image: '/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png',
     discount: '10%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -173,7 +173,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '6.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png?raw=true',
+    image: '/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -187,7 +187,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '5.000 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20KASTURI.png?raw=true',
+    image: '/Produk%20TSC%20SJT/FINES%20KASTURI.png',
     discount: '15%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -201,7 +201,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '7.200 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20PAITON.png?raw=true',
+    image: '/Produk%20TSC%20SJT/FINES%20PAITON.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -215,7 +215,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '4.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png?raw=true',
+    image: '/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png',
     discount: '8%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -229,7 +229,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '9.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAITON%20TRASING.png?raw=true',
+    image: '/Produk%20TSC%20SJT/PAITON%20TRASING.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -243,7 +243,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '5.600 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAKPIE.png?raw=true',
+    image: '/Produk%20TSC%20SJT/PAKPIE.png',
     discount: '12%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -257,7 +257,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '4.200 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/REDRY%20RAJANGLOMBOK.png?raw=true',
+    image: '/Produk%20TSC%20SJT/REDRY%20RAJANGLOMBOK.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -271,7 +271,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '8.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/SCRAP%20KASTURI.png?raw=true',
+    image: '/Produk%20TSC%20SJT/SCRAP%20KASTURI.png',
     discount: '5%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -285,7 +285,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '10.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/SCRAP%20RAJANG%20PAITON.png?raw=true',
+    image: '/Produk%20TSC%20SJT/SCRAP%20RAJANG%20PAITON.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -299,7 +299,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '3.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20BOLD.png?raw=true',
+    image: '/Produk%20TSC%20SJT/TSC%20BOLD.png',
     discount: '18%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -313,7 +313,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '4.100 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20KRETEK.png?raw=true',
+    image: '/Produk%20TSC%20SJT/TSC%20KRETEK.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -327,7 +327,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '5.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20MILD.png?raw=true',
+    image: '/Produk%20TSC%20SJT/TSC%20MILD.png',
     discount: '10%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -341,7 +341,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '6.200 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20REGULER.png?raw=true',
+    image: '/Produk%20TSC%20SJT/TSC%20REGULER.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -355,7 +355,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '2.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png?raw=true',
+    image: '/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png',
     discount: '20%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -369,7 +369,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '3.200 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png?raw=true',
+    image: '/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -383,7 +383,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '4.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png?raw=true',
+    image: '/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png',
     discount: '15%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -397,7 +397,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '3.600 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png?raw=true',
+    image: '/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -411,7 +411,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '6.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES.png?raw=true',
+    image: '/Produk%20TSC%20SJT/FINES.png',
     discount: '8%',
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -425,7 +425,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '5.400 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED.png?raw=true',
+    image: '/Produk%20TSC%20SJT/EXPANDED.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -439,7 +439,7 @@ const marketplaceProducts = [
     price: 'Hubungi Kami',
     unit: 'per kg',
     stock: 'Sesuai Permintaan',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true',
+    image: '/Produk%20TSC%20SJT/UPON%20REQUEST.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -453,7 +453,7 @@ const marketplaceProducts = [
     price: 'Hubungi Kami',
     unit: 'per kg',
     stock: 'Sesuai Permintaan',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true',
+    image: '/Produk%20TSC%20SJT/UPON%20REQUEST.png',
     discount: null,
     jenis: 'Tembakau Siap Campur (TSC)',
     kemasan: 'Karung/Karton Box',
@@ -469,7 +469,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '2.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png',
     discount: '15%',
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -483,7 +483,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '3.100 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png',
     discount: null,
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -497,7 +497,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '4.200 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png',
     discount: '10%',
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -511,7 +511,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '2.800 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png',
     discount: null,
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -525,7 +525,7 @@ const marketplaceProducts = [
     price: 'Rp.....',
     unit: 'per kg',
     stock: '3.500 kg',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png',
     discount: '12%',
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -539,7 +539,7 @@ const marketplaceProducts = [
     price: 'Hubungi Kami',
     unit: 'per kg',
     stock: 'Sesuai Permintaan',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png?raw=true',
+    image: '/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png',
     discount: null,
     jenis: 'Tembakau Siap Giling (TSG)',
     kemasan: 'Karung/Karton Box',
@@ -624,7 +624,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
       status: 'Terkirim',
       statusColor: 'green',
       icon: CheckCircle,
-      image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png?raw=true',
+      image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png',
       trackingHistory: [
         { status: 'Pesanan Dibuat', date: '15 Des 2024, 10:00', description: 'Pesanan telah dibuat dan menunggu pembayaran', completed: true },
         { status: 'Pembayaran Dikonfirmasi', date: '15 Des 2024, 14:30', description: 'Pembayaran telah diverifikasi', completed: true },
@@ -643,7 +643,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
       status: 'Diproses',
       statusColor: 'amber',
       icon: Clock,
-      image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png?raw=true',
+      image: '/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png',
       trackingHistory: [
         { status: 'Pesanan Dibuat', date: '18 Des 2024, 11:00', description: 'Pesanan telah dibuat dan menunggu pembayaran', completed: true },
         { status: 'Pembayaran Dikonfirmasi', date: '18 Des 2024, 16:00', description: 'Pembayaran telah diverifikasi', completed: true },
@@ -662,7 +662,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
       status: 'Dikirim',
       statusColor: 'blue',
       icon: Truck,
-      image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20INTERNATIONAL%2016%20BATANG%20KANAN.png?raw=true',
+      image: '/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20INTERNATIONAL%2016%20BATANG%20KANAN.png',
       trackingHistory: [
         { status: 'Pesanan Dibuat', date: '15 Des 2024, 09:30', description: 'Pesanan telah dibuat dan menunggu pembayaran', completed: true },
         { status: 'Pembayaran Dikonfirmasi', date: '15 Des 2024, 13:00', description: 'Pembayaran telah diverifikasi', completed: true },
@@ -932,7 +932,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                   <div className="flex items-center gap-2 sm:gap-4">
                     <div className="bg-gray-50 rounded-lg sm:rounded-xl p-2 sm:p-3 border border-gray-200 shadow-sm">
                       <img 
-                        src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                        src="/Logo%20PT%20Santoso.png"
                         alt="PT Santoso Jaya Tembakau"
                         className="h-8 sm:h-12 w-auto drop-shadow-lg"
                       />
@@ -1119,7 +1119,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                   <div 
                     className="absolute inset-0"
                     style={{
-                      backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Direktur%20di%20B2B%20SJT.png?raw=true")',
+                      backgroundImage: 'url("/BG%20Direktur%20di%20B2B%20SJT.png")',
                       backgroundAttachment: 'fixed',
                       backgroundPosition: 'center',
                       backgroundSize: 'cover',
@@ -1146,7 +1146,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                     <div 
                       className="absolute inset-0"
                       style={{
-                        backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Manajmen%20NNA.jpg?raw=true")',
+                        backgroundImage: 'url("/Manajmen%20NNA.jpg")',
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
@@ -1160,11 +1160,11 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       </div>
                     </div>
                     <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4">
-                      <p className="text-xs sm:text-sm text-white opacity-80 drop-shadow-md">Lihat selengkapnya →</p>
+                      <p className="text-xs sm:text-sm text-white opacity-80 drop-shadow-md">Lihat selengkapnya â†’</p>
                     </div>
                     <div className="absolute bottom-3 right-3 sm:bottom-4 sm:right-4">
                       <img 
-                        src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT.NNA.png?raw=true" 
+                        src="/Logo%20PT.NNA.png" 
                         alt="Logo PT. Niaga Nusa Abadi" 
                         className="w-10 h-10 sm:w-14 sm:h-14 object-contain bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-1.5 sm:p-2"
                       />
@@ -1179,7 +1179,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                     <div 
                       className="absolute inset-0"
                       style={{
-                        backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Mitra%20Petani.png?raw=true")',
+                        backgroundImage: 'url("/Mitra%20Petani.png")',
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
@@ -1193,11 +1193,11 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       </div>
                     </div>
                     <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4">
-                      <p className="text-xs sm:text-sm text-white opacity-80 drop-shadow-md">Lihat selengkapnya →</p>
+                      <p className="text-xs sm:text-sm text-white opacity-80 drop-shadow-md">Lihat selengkapnya â†’</p>
                     </div>
                     <div className="absolute bottom-3 right-3 sm:bottom-4 sm:right-4">
                       <img 
-                        src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true" 
+                        src="/Logo%20PT%20Santoso.png" 
                         alt="Logo PT Santoso Jaya Tembakau" 
                         className="w-10 h-10 sm:w-14 sm:h-14 object-contain bg-white/90 backdrop-blur-sm rounded-lg shadow-lg p-1.5 sm:p-2"
                       />
@@ -1509,7 +1509,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       <button
                         onClick={() => setActiveView('orders')}
                         className="text-orange-600 hover:text-orange-700 font-medium text-sm hover:underline">
-                        Lihat Semua →
+                        Lihat Semua â†’
                       </button>
                     </div>
                     <div className="space-y-3">
@@ -1627,7 +1627,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       }}
                       className="px-4 py-2.5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-xl font-medium transition-all duration-300 shadow-md hover:shadow-lg"
                     >
-                      ← Kembali
+                      â† Kembali
                     </button>
                     <div>
                       <h2 className="text-xl sm:text-2xl font-bold text-gray-900">Detail Pesanan</h2>
@@ -1732,7 +1732,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                             <div>
                               <h4 className="font-semibold text-gray-900">{item.name}</h4>
                               <p className="text-sm text-gray-600">
-                                {item.quantity} {item.unit} × {item.price}
+                                {item.quantity} {item.unit} Ã— {item.price}
                               </p>
                             </div>
                           </div>
@@ -1974,7 +1974,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                             <CheckCircle className={`animate-checkMark ${is2FAEnabled ? 'text-red-600' : 'text-green-600'}`} size={48} strokeWidth={2.5} />
                           </div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                            {is2FAEnabled ? '2FA Berhasil Dinonaktifkan! ✅' : '2FA Berhasil Diaktifkan! ✅'}
+                            {is2FAEnabled ? '2FA Berhasil Dinonaktifkan! âœ…' : '2FA Berhasil Diaktifkan! âœ…'}
                           </h3>
                           <p className="text-gray-600">
                             {is2FAEnabled 
@@ -2006,7 +2006,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                           </div>
                           <p className="text-sm text-gray-600">
                             {is2FAEnabled 
-                              ? '✓ Akun Anda dilindungi dengan 2FA'
+                              ? 'âœ“ Akun Anda dilindungi dengan 2FA'
                               : 'Tambahkan lapisan keamanan ekstra ke akun Anda'
                             }
                           </p>
@@ -2069,7 +2069,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                             </div>
                             <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                               <p className="text-sm text-blue-800">
-                                💡 <strong>Tip:</strong> Pastikan Anda sudah menginstall Google Authenticator di smartphone Anda
+                                ðŸ’¡ <strong>Tip:</strong> Pastikan Anda sudah menginstall Google Authenticator di smartphone Anda
                               </p>
                             </div>
                           </div>
@@ -2705,7 +2705,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                 </button>
                 <div className="flex items-center gap-3 sm:gap-4">
                   <img 
-                    src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT.NNA.png?raw=true" 
+                    src="/Logo%20PT.NNA.png" 
                     alt="Logo PT. Niaga Nusa Abadi" 
                     className="w-12 h-12 sm:w-16 sm:h-16 object-contain bg-white rounded-lg shadow-md p-2"
                   />
@@ -2727,7 +2727,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                 <div 
                   className="absolute inset-0"
                   style={{
-                    backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Manajmen%20NNA.jpg?raw=true")',
+                    backgroundImage: 'url("/Manajmen%20NNA.jpg")',
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
@@ -2899,7 +2899,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                 <div className="flex items-center gap-3 sm:gap-4">
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-lg shadow-md flex items-center justify-center p-2">
                     <img 
-                      src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true" 
+                      src="/Logo%20PT%20Santoso.png" 
                       alt="Logo PT Santoso Jaya Tembakau" 
                       className="w-full h-full object-contain"
                     />
@@ -2922,7 +2922,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                 <div 
                   className="absolute inset-0"
                   style={{
-                    backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Mitra%20Petani.png?raw=true")',
+                    backgroundImage: 'url("/Mitra%20Petani.png")',
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
@@ -3148,7 +3148,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                         onClick={() => setOrderQuantity(Math.max(1, orderQuantity - 1))}
                         className="w-12 h-12 flex items-center justify-center bg-white border-2 border-gray-300 hover:border-orange-500 hover:bg-orange-50 rounded-lg text-2xl font-bold text-gray-700 hover:text-orange-600 transition-all duration-300"
                       >
-                        −
+                        âˆ’
                       </button>
                       <input
                         type="number"
@@ -3244,11 +3244,11 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       Informasi Pemesanan
                     </h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li>• Harga dapat berubah sewaktu-waktu tanpa pemberitahuan</li>
-                      <li>• Minimum order sesuai dengan satuan yang tertera</li>
-                      <li>• Stok tersedia secara real-time</li>
-                      <li>• Untuk pemesanan dalam jumlah besar, silakan hubungi tim sales</li>
-                      <li>• Tersedia diskon khusus untuk pembelian dalam jumlah tertentu</li>
+                      <li>â€¢ Harga dapat berubah sewaktu-waktu tanpa pemberitahuan</li>
+                      <li>â€¢ Minimum order sesuai dengan satuan yang tertera</li>
+                      <li>â€¢ Stok tersedia secara real-time</li>
+                      <li>â€¢ Untuk pemesanan dalam jumlah besar, silakan hubungi tim sales</li>
+                      <li>â€¢ Tersedia diskon khusus untuk pembelian dalam jumlah tertentu</li>
                     </ul>
                   </div>
                 </div>
@@ -3441,7 +3441,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                                 onClick={() => handleUpdateCartQuantity(item.product.id, item.quantity - 1)}
                                 className="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-700 transition-colors text-sm sm:text-base"
                               >
-                                −
+                                âˆ’
                               </button>
                               <span className="w-10 sm:w-12 text-center font-semibold text-gray-900 text-sm sm:text-base">{item.quantity}</span>
                               <button
@@ -3618,7 +3618,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
               </div>
               <div className="mt-4 bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4">
                 <p className="text-xs sm:text-sm">
-                  ⚠️ <span className="font-semibold">Penting:</span> Pastikan transfer sesuai dengan nominal total pembayaran dan simpan bukti transfer untuk diupload di bawah ini.
+                  âš ï¸ <span className="font-semibold">Penting:</span> Pastikan transfer sesuai dengan nominal total pembayaran dan simpan bukti transfer untuk diupload di bawah ini.
                 </p>
               </div>
             </div>
@@ -3957,10 +3957,10 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                 <div className="flex-1">
                   <h3 className="font-semibold text-blue-900 mb-1 text-sm sm:text-base">Informasi Penting</h3>
                   <ul className="text-xs sm:text-sm text-blue-800 space-y-1">
-                    <li>• Verifikasi pembayaran membutuhkan waktu 1x24 jam kerja</li>
-                    <li>• Pastikan nominal transfer sesuai dengan total pembayaran</li>
-                    <li>• Simpan bukti transfer hingga pesanan selesai diproses</li>
-                    <li>• Untuk bantuan hubungi CS kami di WhatsApp: 0812-3456-7890</li>
+                    <li>â€¢ Verifikasi pembayaran membutuhkan waktu 1x24 jam kerja</li>
+                    <li>â€¢ Pastikan nominal transfer sesuai dengan total pembayaran</li>
+                    <li>â€¢ Simpan bukti transfer hingga pesanan selesai diproses</li>
+                    <li>â€¢ Untuk bantuan hubungi CS kami di WhatsApp: 0812-3456-7890</li>
                   </ul>
                 </div>
               </div>
@@ -4007,7 +4007,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       onClick={() => setActiveView('orders')}
                       className="text-xs sm:text-sm text-orange-600 hover:text-orange-700 font-semibold hover:underline"
                     >
-                      Lihat Detail Pesanan →
+                      Lihat Detail Pesanan â†’
                     </button>
                   </div>
                 </div>
@@ -4031,7 +4031,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       onClick={() => setActiveView('marketplace')}
                       className="text-xs sm:text-sm text-orange-600 hover:text-orange-700 font-semibold hover:underline"
                     >
-                      Lihat Promo →
+                      Lihat Promo â†’
                     </button>
                   </div>
                 </div>
@@ -4055,7 +4055,7 @@ export function B2BMarketplaceDashboard({ userEmail, onLogout, onBack }: B2BMark
                       onClick={() => setActiveView('marketplace')}
                       className="text-xs sm:text-sm text-orange-600 hover:text-orange-700 font-semibold hover:underline"
                     >
-                      Lihat Produk →
+                      Lihat Produk â†’
                     </button>
                   </div>
                 </div>

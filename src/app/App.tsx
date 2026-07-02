@@ -1,4 +1,4 @@
-// Main App Component - PT Santoso Jaya Tembakau Website
+﻿// Main App Component - PT Santoso Jaya Tembakau Website
 // Complete website system with navigation and routing
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import React, { useState } from "react";
@@ -340,11 +340,11 @@ export default function App() {
     {
       name: "358 16 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2016%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -359,16 +359,16 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg?raw=true",
+        "/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg",
     },
     {
       name: "Sosrobahu Premium 16 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20PREMIUM%2016%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -383,16 +383,16 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg?raw=true",
+        "/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg",
     },
     {
       name: "Bahamas 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2012%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -407,16 +407,16 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg?raw=true",
+        "/Design%20Produk/Latar%20Belakang%20WEB%20Bahamas.jpg",
     },
     {
       name: "Sosrobahu Santos Filter 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20SANTOS%20FILTER%2012%20BATANG%20KANAN.png",
       category: "mesin",
       market: "domestik",
       description:
@@ -434,11 +434,11 @@ export default function App() {
     {
       name: "358 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/refs/heads/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/358%2012%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -456,11 +456,11 @@ export default function App() {
     {
       name: "Bahamas 20 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/BAHAMAS%2020%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -478,11 +478,11 @@ export default function App() {
     {
       name: "Santos Bahamas Filter 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SANTOS%20BAHAMAS%20FILTER%2012%20BATANG%20KANAN.png",
       category: "mesin",
       market: "internasional",
       description:
@@ -500,11 +500,11 @@ export default function App() {
     {
       name: "Kupu Biru 16 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/KUPU%20BIRU%2016%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -519,16 +519,16 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20kupu%20biru.jpg?raw=true",
+        "/Design%20Produk/Latar%20Belakang%20kupu%20biru.jpg",
     },
     {
       name: "Sosrobahu Kopi Hitam 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%20KOPI%20HITAM%2012%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -543,16 +543,16 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/latar%20belakang%20sosrobahu%20kopi%20hitam.jpg?raw=true",
+        "/Design%20Produk/latar%20belakang%20sosrobahu%20kopi%20hitam.jpg",
     },
     {
       name: "Sosrobahu 12 Batang",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KIRI.png",
       baseImageLeft:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KIRI.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KIRI.png",
       baseImageRight:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KANAN.png?raw=true",
+        "/3D%20PRODUK%20ROKOK%20LANDING%20PAGE%20KANAN%20DAN%20KIRI/SOSROBAHU%2012%20BATANG%20KANAN.png",
       category: "tangan",
       market: "domestik",
       description:
@@ -567,7 +567,7 @@ export default function App() {
       produksi: "PT. Santoso Jaya Tembakau",
       distribusi: "PT. Santoso Jaya Tembakau",
       backgroundImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/latar%20belakang%20sosrobahu%20original.jpg?raw=true",
+        "/Design%20Produk/latar%20belakang%20sosrobahu%20original.jpg",
     },
   ];
 
@@ -576,7 +576,7 @@ export default function App() {
     {
       name: "EXPANDED DOUBLE CUTTER",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png?raw=true",
+        "/Produk%20TSC%20SJT/EXPANDED%20DOUBLE%20CUTTER.png",
       description:
         "Tembakau Siap Campur EXPANDED DOUBLE CUTTER berkualitas tinggi untuk produksi rokok premium dengan tekstur khusus hasil proses double cutting",
       productName: "EXPANDED DOUBLE CUTTER",
@@ -596,7 +596,7 @@ export default function App() {
     {
       name: "EXPANDED SINGLE CUT",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png?raw=true",
+        "/Produk%20TSC%20SJT/EXPANDED%20SINGLE%20CUT.png",
       description:
         "Tembakau Siap Campur EXPANDED SINGLE CUT dengan kualitas standar tinggi dan tekstur hasil single cut yang halus",
       productName: "EXPANDED SINGLE CUT",
@@ -616,7 +616,7 @@ export default function App() {
     {
       name: "FINES KASTURI",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20KASTURI.png?raw=true",
+        "/Produk%20TSC%20SJT/FINES%20KASTURI.png",
       description:
         "Tembakau Siap Campur FINES KASTURI dengan kualitas standar industri, aroma khas kasturi yang memikat",
       productName: "FINES KASTURI",
@@ -636,7 +636,7 @@ export default function App() {
     {
       name: "FINES PAITON",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20PAITON.png?raw=true",
+        "/Produk%20TSC%20SJT/FINES%20PAITON.png",
       description:
         "Tembakau Siap Campur FINES PAITON dengan kualitas standar baik, berasal dari area Paiton yang terkenal",
       productName: "FINES PAITON",
@@ -656,7 +656,7 @@ export default function App() {
     {
       name: "FINES RAJANG MADURA",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png?raw=true",
+        "/Produk%20TSC%20SJT/FINES%20RAJANG%20MADURA.png",
       description:
         "Tembakau Siap Campur FINES RAJANG MADURA untuk keperluan industri, khas dari daerah Madura",
       productName: "FINES RAJANG MADURA",
@@ -676,7 +676,7 @@ export default function App() {
     {
       name: "PAITON TRASING",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAITON%20TRASING.png?raw=true",
+        "/Produk%20TSC%20SJT/PAITON%20TRASING.png",
       description:
         "Tembakau Siap Campur PAITON TRASING untuk keperluan industri standar, hasil pilihan terbaik dari Paiton",
       productName: "PAITON TRASING",
@@ -696,7 +696,7 @@ export default function App() {
     {
       name: "PAKPIE",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/PAKPIE.png?raw=true",
+        "/Produk%20TSC%20SJT/PAKPIE.png",
       description:
         "Tembakau Siap Campur PAKPIE dengan kualitas terbaik untuk campuran rokok premium",
       productName: "PAKPIE",
@@ -716,7 +716,7 @@ export default function App() {
     {
       name: "REDRY RAJANGLOMBOK",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/REDRY%20RAJANGLOMBOK.png?raw=true",
+        "/Produk%20TSC%20SJT/REDRY%20RAJANGLOMBOK.png",
       description:
         "Tembakau Siap Campur REDRY RAJANGLOMBOK dengan karakteristik unggul hasil proses redry berkualitas tinggi",
       productName: "REDRY RAJANGLOMBOK",
@@ -735,7 +735,7 @@ export default function App() {
     {
       name: "SCRAP KASTURI",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/SCRAP%20KASTURI.png?raw=true",
+        "/Produk%20TSC%20SJT/SCRAP%20KASTURI.png",
       description:
         "Tembakau Siap Campur SCRAP KASTURI untuk produksi rokok berkualitas dengan aroma kasturi yang khas",
       productName: "SCRAP KASTURI",
@@ -755,7 +755,7 @@ export default function App() {
     {
       name: "SCRAP RAJANG PAITON",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/SCRAP%20RAJANG%20PAITON.png?raw=true",
+        "/Produk%20TSC%20SJT/SCRAP%20RAJANG%20PAITON.png",
       description:
         "Tembakau Siap Campur SCRAP RAJANG PAITON untuk produksi rokok standar, berasal dari area Paiton",
       productName: "SCRAP RAJANG PAITON",
@@ -775,7 +775,7 @@ export default function App() {
     {
       name: "TSC BOLD",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20BOLD.png?raw=true",
+        "/Produk%20TSC%20SJT/TSC%20BOLD.png",
       description:
         "Tembakau Siap Campur TSC BOLD dengan kualitas export untuk pasar internasional, rasa yang kuat dan berani",
       productName: "TSC BOLD",
@@ -795,7 +795,7 @@ export default function App() {
     {
       name: "TSC KRETEK",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20KRETEK.png?raw=true",
+        "/Produk%20TSC%20SJT/TSC%20KRETEK.png",
       description:
         "Tembakau Siap Campur TSC KRETEK untuk campuran rokok premium dengan aroma kretek yang khas",
       productName: "TSC KRETEK",
@@ -815,7 +815,7 @@ export default function App() {
     {
       name: "TSC MILD",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20MILD.png?raw=true",
+        "/Produk%20TSC%20SJT/TSC%20MILD.png",
       description:
         "Tembakau Siap Campur TSC MILD dengan karakteristik tradisional yang lembut dan halus",
       productName: "TSC MILD",
@@ -834,7 +834,7 @@ export default function App() {
     {
       name: "TSC REGULER",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/TSC%20REGULER.png?raw=true",
+        "/Produk%20TSC%20SJT/TSC%20REGULER.png",
       description:
         "Tembakau Siap Campur TSC REGULER dengan kualitas istimewa untuk produksi rokok berkualitas tinggi",
       productName: "TSC REGULER",
@@ -854,7 +854,7 @@ export default function App() {
     {
       name: "FINES",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/FINES.png?raw=true",
+        "/Produk%20TSC%20SJT/FINES.png",
       description:
         "Tembakau Siap Campur FINES dengan kualitas terbaik untuk campuran rokok premium",
       productName: "FINES",
@@ -870,7 +870,7 @@ export default function App() {
     {
       name: "EXPANDED",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/EXPANDED.png?raw=true",
+        "/Produk%20TSC%20SJT/EXPANDED.png",
       description:
         "Tembakau Siap Campur EXPANDED berkualitas tinggi untuk produksi rokok premium dengan tekstur expanded yang optimal",
       productName: "EXPANDED",
@@ -886,7 +886,7 @@ export default function App() {
     {
       name: "MATA AYAM YUNAN",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png?raw=true",
+        "/Produk%20TSC%20SJT/MATA%20AYAM%20YUNAN.png",
       description:
         "Tembakau Siap Campur MATA AYAM YUNAN dengan kualitas premium, karakteristik khas dari tembakau Yunan yang terkenal",
       productName: "MATA AYAM YUNAN",
@@ -902,7 +902,7 @@ export default function App() {
     {
       name: "MATA AYAM KASTURI",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png?raw=true",
+        "/Produk%20TSC%20SJT/MATA%20AYAM%20KASTURI.png",
       description:
         "Tembakau Siap Campur MATA AYAM KASTURI berkualitas premium dengan aroma kasturi yang khas dan memikat",
       productName: "MATA AYAM KASTURI",
@@ -918,7 +918,7 @@ export default function App() {
     {
       name: "MATA AYAM MADURA",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png?raw=true",
+        "/Produk%20TSC%20SJT/MATA%20AYAM%20MADURA.png",
       description:
         "Tembakau Siap Campur MATA AYAM MADURA dengan kualitas terbaik, khas dari daerah Madura yang terkenal dengan tembakau berkualitas",
       productName: "MATA AYAM MADURA",
@@ -934,7 +934,7 @@ export default function App() {
     {
       name: "MATA AYAM LOMBOK",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png?raw=true",
+        "/Produk%20TSC%20SJT/MATA%20AYAM%20LOMBOK.png",
       description:
         "Tembakau Siap Campur MATA AYAM LOMBOK berkualitas premium dengan karakteristik unggul dari tembakau Lombok pilihan",
       productName: "MATA AYAM LOMBOK",
@@ -950,7 +950,7 @@ export default function App() {
     {
       name: "UPON REQUEST",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true",
+        "/Produk%20TSC%20SJT/UPON%20REQUEST.png",
       description:
         "Tembakau Siap Campur dengan spesifikasi khusus sesuai permintaan pelanggan. Kami dapat menyesuaikan kualitas, jenis, dan karakteristik tembakau sesuai kebutuhan produksi Anda",
       productName: "UPON REQUEST",
@@ -966,7 +966,7 @@ export default function App() {
     {
       name: "UPON REQUEST 2",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Produk%20TSC%20SJT/UPON%20REQUEST.png?raw=true",
+        "/Produk%20TSC%20SJT/UPON%20REQUEST.png",
       description:
         "Tembakau Siap Campur dengan spesifikasi khusus sesuai permintaan pelanggan. Kami dapat menyesuaikan kualitas, jenis, dan karakteristik tembakau sesuai kebutuhan produksi Anda",
       productName: "UPON REQUEST (Custom)",
@@ -986,9 +986,9 @@ export default function App() {
     {
       name: "TSG BOLD",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20BOLD.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/BOLD.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/BOLD.png",
       description:
         "Tembakau Siap Giling (TSG) BOLD adalah produk tembakau berkualitas yang sudah di proses Flavour atau Chaos, cengkeh dan bahan bahan lain yang siap di pakai untuk produksi rokok dengan karakter rasa yang kuat dan berani",
       productName: "TSG BOLD",
@@ -1004,9 +1004,9 @@ export default function App() {
     {
       name: "TSG KRETEK",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20KRETEK.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/KRETEK.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/KRETEK.png",
       description:
         "Tembakau Siap Giling (TSG) KRETEK dengan aroma kretek yang khas, sudah melalui proses lengkap dengan cengkeh dan rempah berkualitas tinggi",
       productName: "TSG KRETEK",
@@ -1022,9 +1022,9 @@ export default function App() {
     {
       name: "TSG MILD",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20MILD.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/MILD.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/MILD.png",
       description:
         "Tembakau Siap Giling (TSG) MILD dengan karakteristik rasa yang lembut dan halus, cocok untuk produksi rokok dengan kadar rendah",
       productName: "TSG MILD",
@@ -1040,9 +1040,9 @@ export default function App() {
     {
       name: "TSG PUTIHAN",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20PUTIHAN.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/PUTIHAN.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/PUTIHAN.png",
       description:
         "Tembakau Siap Giling (TSG) PUTIHAN dengan kualitas premium, hasil pemilihan tembakau putihan terbaik untuk karakter rokok yang khas",
       productName: "TSG PUTIHAN",
@@ -1058,9 +1058,9 @@ export default function App() {
     {
       name: "TSG REGULER",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20REGULER.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/REGULER.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/REGULER.png",
       description:
         "Tembakau Siap Giling (TSG) REGULER dengan kualitas standar terbaik untuk produksi rokok reguler yang berkualitas tinggi",
       productName: "TSG REGULER",
@@ -1076,9 +1076,9 @@ export default function App() {
     {
       name: "TSG UPON REQUEST",
       baseImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/TSG%20UPON%20REQUEST.png",
       hoverImage:
-        "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/PRODUK%20TEMBAKAU%20TSG/UPON%20REQUEST.png?raw=true",
+        "/PRODUK%20TEMBAKAU%20TSG/UPON%20REQUEST.png",
       description:
         "Tembakau Siap Giling (TSG) dengan spesifikasi khusus sesuai permintaan pelanggan. Kami dapat menyesuaikan formula, flavour, dan karakteristik sesuai kebutuhan produksi rokok Anda",
       productName: "TSG UPON REQUEST",
@@ -1494,8 +1494,8 @@ export default function App() {
     // Hitung split point (tengah): bagi 2
     const midPoint = Math.ceil(totalProducts / 2);
 
-    // Produk di KIRI (index 0 sampai midPoint-1) → Pakai baseImageRight (menghadap kanan →)
-    // Produk di KANAN (index midPoint sampai end) → Pakai baseImageLeft (menghadap kiri ←)
+    // Produk di KIRI (index 0 sampai midPoint-1) â†’ Pakai baseImageRight (menghadap kanan â†’)
+    // Produk di KANAN (index midPoint sampai end) â†’ Pakai baseImageLeft (menghadap kiri â†)
     if (index < midPoint) {
       return (
         product.baseImageRight ||
@@ -1512,7 +1512,7 @@ export default function App() {
   };
 
   const getCenteredImageUrl = (baseImage: string) => {
-    return `${baseImage}%20KANAN.png?raw=true`;
+    return `${baseImage}%20KANAN.png`;
   };
 
   const handlePrevious = () => {

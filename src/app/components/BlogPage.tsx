@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+﻿import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Calendar, User, ArrowRight, Clock } from 'lucide-react';
@@ -18,7 +18,7 @@ const blogPosts = [
     date: '26 Juni 2023',
     readTime: '5 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Ekspor%20ke%20Negara%20Cambodia%2026%20Juni%202023.jpg?raw=true',
+    image: '/Ekspor%20ke%20Negara%20Cambodia%2026%20Juni%202023.jpg',
     gradient: 'from-indigo-500/90 to-indigo-600/90'
   },
   {
@@ -29,7 +29,7 @@ const blogPosts = [
     date: '25 September 2024',
     readTime: '4 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Ekspor%2025%20September%202025.jpg?raw=true',
+    image: '/Ekspor%2025%20September%202025.jpg',
     gradient: 'from-emerald-500/90 to-emerald-600/90'
   },
   {
@@ -40,7 +40,7 @@ const blogPosts = [
     date: '16 Mei 2023',
     readTime: '4 menit',
     category: 'Ekspor',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Ekspor%20China%2016%20Mei%202023.jpg?raw=true',
+    image: '/BG%20Ekspor%20China%2016%20Mei%202023.jpg',
     gradient: 'from-red-500/90 to-red-600/90'
   },
   {
@@ -51,7 +51,7 @@ const blogPosts = [
     date: '1 Desember 2024',
     readTime: '4 menit',
     category: 'Produk',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Blog%20Bagian%20Produk%20Kami.png?raw=true',
+    image: '/BG%20Blog%20Bagian%20Produk%20Kami.png',
     gradient: 'from-orange-500/90 to-amber-600/90'
   },
   {
@@ -62,7 +62,7 @@ const blogPosts = [
     date: '25 November 2024',
     readTime: '5 menit',
     category: 'SDM',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Pengembangans.png?raw=true',
+    image: '/BG%20Pengembangans.png',
     gradient: 'from-blue-500/90 to-blue-600/90'
   },
   {
@@ -73,7 +73,7 @@ const blogPosts = [
     date: '20 November 2024',
     readTime: '8 menit',
     category: 'Teknologi',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Generasi%20Kedua.png?raw=true',
+    image: '/BG%20Generasi%20Kedua.png',
     gradient: 'from-purple-500/90 to-purple-600/90'
   },
   {
@@ -84,7 +84,7 @@ const blogPosts = [
     date: '15 November 2024',
     readTime: '6 menit',
     category: 'Kemitraan',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Tentang%20Kami.png?raw=true',
+    image: '/BG%20Tentang%20Kami.png',
     gradient: 'from-cyan-500/90 to-cyan-600/90'
   },
   {
@@ -95,7 +95,7 @@ const blogPosts = [
     date: '10 November 2024',
     readTime: '5 menit',
     category: 'Prestasi',
-    image: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Sejarah%20Awal.png?raw=true',
+    image: '/Sejarah%20Awal.png',
     gradient: 'from-teal-500/90 to-teal-600/90'
   }
 ];
@@ -121,7 +121,7 @@ export function BlogPage({ onNavigate }: BlogPageProps) {
         <div 
           className="absolute top-0 left-0 w-full h-screen z-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Blog.png?raw=true")',
+            backgroundImage: 'url("/BG%20Blog.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',

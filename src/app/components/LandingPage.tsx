@@ -1,4 +1,4 @@
-// Landing Page Component
+﻿// Landing Page Component
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { useState, useRef, useEffect } from 'react';
@@ -210,7 +210,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
                 <div className="flex items-center gap-3">
                   <div className="bg-white/90 backdrop-blur-sm rounded-xl p-3 border border-white/40 shadow-lg">
                     <img
-                      src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                      src="/Logo%20PT%20Santoso.png"
                       alt="PT Santoso Jaya Tembakau"
                       className="h-16 w-auto drop-shadow-lg"
                       onError={(e) => {
@@ -700,7 +700,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shadow-md border border-amber-200">
                         <img
-                          src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                          src="/Logo%20PT%20Santoso.png"
                           alt="PT Santoso Logo"
                           className="w-full h-full object-contain"
                         />
@@ -748,7 +748,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shadow-md border border-amber-200">
                         <img
-                          src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                          src="/Logo%20PT%20Santoso.png"
                           alt="PT Santoso Logo"
                           className="w-full h-full object-contain"
                         />
@@ -796,7 +796,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-1.5 shadow-md border border-amber-200">
                         <img
-                          src="https://raw.githubusercontent.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/main/Logo%20PT%20Santoso.png"
+                          src="/Logo%20PT%20Santoso.png"
                           alt="PT Santoso Logo"
                           className="w-full h-full object-contain"
                         />
@@ -835,7 +835,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
           <div 
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Landing%20Page%20Section%20Siapa%20Kami.png?raw=true")',
+              backgroundImage: 'url("/Landing%20Page%20Section%20Siapa%20Kami.png")',
               backgroundAttachment: 'fixed',
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -897,7 +897,7 @@ export function LandingPage({ onNavigate, onNavigateToLogin, onNavigateToSignup 
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Gambar%20landing%20page%20Bergabung%20Bersama%20Kami.png?raw=true")',
+            backgroundImage: 'url("/Gambar%20landing%20page%20Bergabung%20Bersama%20Kami.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',

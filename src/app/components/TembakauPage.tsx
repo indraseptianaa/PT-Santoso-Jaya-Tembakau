@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+﻿import { useState, useRef, useEffect } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { MessageCircle, Cigarette, LayoutGrid, ChevronLeft, ChevronRight, Play, Pause, ArrowLeft, ChevronDown } from 'lucide-react';
 
@@ -384,7 +384,7 @@ export function TembakauPage({ products: initialProducts, title, description, fi
                       hoveredIndex === index ? 'opacity-100' : 'opacity-0'
                     }`}>
                       <ImageWithFallback
-                        src={product.hoverImage || "https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Tembakau%20Rajang.png?raw=true"}
+                        src={product.hoverImage || "/Tembakau%20Rajang.png"}
                         alt={product.hoverImage ? product.name : "Tembakau Rajang"}
                         className="w-full h-full object-contain drop-shadow-xl"
                       />

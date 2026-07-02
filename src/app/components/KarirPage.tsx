@@ -1,4 +1,4 @@
-import { Briefcase, User, ArrowRight, X } from 'lucide-react';
+﻿import { Briefcase, User, ArrowRight, X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Header } from './Header';
 import { Footer } from './Footer';
@@ -67,7 +67,7 @@ export function KarirPage({ onNavigateToLogin, onNavigateToSignup, onNavigate }:
               <div className="mb-8 flex justify-center">
                 <div className="bg-white rounded-2xl shadow-xl p-6 inline-block">
                   <img 
-                    src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                    src="/Logo%20PT%20Santoso.png"
                     alt="PT Santoso Jaya Tembakau"
                     className="h-16 md:h-20"
                   />
@@ -118,7 +118,7 @@ export function KarirPage({ onNavigateToLogin, onNavigateToSignup, onNavigate }:
         <div 
           className="absolute top-0 left-0 w-full h-screen z-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Karir.png?raw=true")',
+            backgroundImage: 'url("/BG%20Karir.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -184,7 +184,7 @@ export function KarirPage({ onNavigateToLogin, onNavigateToSignup, onNavigate }:
         {/* Background Image - Full Section */}
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Gambar%20sebelah%20kanan%20di%20section%20Posisi%20Terbuka%20di%20PT%20Santoso%20Jaya%20Tembakau.jpeg?raw=true"
+            src="/Gambar%20sebelah%20kanan%20di%20section%20Posisi%20Terbuka%20di%20PT%20Santoso%20Jaya%20Tembakau.jpeg"
             alt="Career Opportunities"
             className="w-full h-full object-contain object-right"
           />
@@ -256,7 +256,7 @@ export function KarirPage({ onNavigateToLogin, onNavigateToSignup, onNavigate }:
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url("https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/BG%20Budaya%20Kerja%20Positif.png?raw=true")',
+            backgroundImage: 'url("/BG%20Budaya%20Kerja%20Positif.png")',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -294,7 +294,7 @@ export function KarirPage({ onNavigateToLogin, onNavigateToSignup, onNavigate }:
             <div className="mb-12 flex justify-center">
               <div className="bg-white rounded-2xl shadow-xl p-6 inline-block">
                 <img 
-                  src="https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Logo%20PT%20Santoso.png?raw=true"
+                  src="/Logo%20PT%20Santoso.png"
                   alt="PT Santoso Jaya Tembakau"
                   className="h-20 md:h-24"
                 />

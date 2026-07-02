@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Save, Plus, Trash2, Edit2, X, Image as ImageIcon, FileText, Layout, Package, Users, MessageSquare, ArrowLeft, Video, Type, MousePointer } from 'lucide-react';
 import { RokokProductSection, TembakauSection, CustomProductPageSection } from './ProductSections';
 import { addActivity } from '../utils/analytics';
@@ -123,11 +123,11 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
     backgroundImage: '',
     productsTitle: 'Produk Kami',
     productsSubtitle: 'Berbagai pilihan produk berkualitas tinggi',
-    whyChooseUsImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Landing%20Page%20Section%20Siapa%20Kami.png?raw=true',
+    whyChooseUsImage: '/Landing%20Page%20Section%20Siapa%20Kami.png',
     ctaTitle: 'Bergabunglah Bersama Kami',
     ctaSubtitle: 'Mari menjadi bagian dari keluarga besar PT. Santoso Jaya Tembakau',
     ctaButtonText: 'Lihat Lowongan',
-    ctaBackgroundImage: 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Landing%20Page%20Section%20Join%20Us.png?raw=true'
+    ctaBackgroundImage: '/Landing%20Page%20Section%20Join%20Us.png'
   });
 
   const [aboutContent, setAboutContent] = useState<AboutContent>({
@@ -206,14 +206,14 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
       
       // Background image mapping for existing products
       const backgroundImageMap: { [key: string]: string } = {
-        '358 16 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg?raw=true',
-        'Sosrobahu Premium 16 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg?raw=true',
-        'Bahamas 12 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20bahamas%2012%20batang.jpg?raw=true',
-        'Sosrobahu Santos 12 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20santos%2012%20batang.jpg?raw=true',
-        'Santos 12 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20santos%2012%20batang.jpg?raw=true',
-        'Krisdayanti 12 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20krisdayanti%2012%20batang.jpg?raw=true',
-        'Murai 12 Batang': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20murai%2012%20batang.jpg?raw=true',
-        'Murai': 'https://github.com/indraseptianaa/PT-Santoso-Jaya-Tembakau/blob/main/Design%20Produk/Latar%20belakang%20web%20murai%2016%20batang.jpg?raw=true',
+        '358 16 Batang': '/Design%20Produk/Latar%20Belakang%20WEB%20358.jpg',
+        'Sosrobahu Premium 16 Batang': '/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20premium.jpg',
+        'Bahamas 12 Batang': '/Design%20Produk/Latar%20belakang%20web%20bahamas%2012%20batang.jpg',
+        'Sosrobahu Santos 12 Batang': '/Design%20Produk/Latar%20belakang%20web%20sosrobahu%20santos%2012%20batang.jpg',
+        'Santos 12 Batang': '/Design%20Produk/Latar%20belakang%20web%20santos%2012%20batang.jpg',
+        'Krisdayanti 12 Batang': '/Design%20Produk/Latar%20belakang%20web%20krisdayanti%2012%20batang.jpg',
+        'Murai 12 Batang': '/Design%20Produk/Latar%20belakang%20web%20murai%2012%20batang.jpg',
+        'Murai': '/Design%20Produk/Latar%20belakang%20web%20murai%2016%20batang.jpg',
       };
       
       // Migrate products by adding backgroundImage and videoUrls if not exists
@@ -1371,7 +1371,7 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
                         <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-500 transition-colors">
                           <Package className="text-blue-600 group-hover:text-white transition-colors" size={24} />
                         </div>
-                        <span className="text-gray-400 group-hover:text-blue-500 transition-colors">→</span>
+                        <span className="text-gray-400 group-hover:text-blue-500 transition-colors">â†’</span>
                       </div>
                       <h4 className="font-bold text-lg text-gray-900 mb-2">Rokok Products</h4>
                       <p className="text-sm text-gray-600 mb-3">Kelola produk rokok SKM dan SKT</p>
@@ -1421,7 +1421,7 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
                         <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-500 transition-colors">
                           <Package className="text-green-600 group-hover:text-white transition-colors" size={24} />
                         </div>
-                        <span className="text-gray-400 group-hover:text-green-500 transition-colors">→</span>
+                        <span className="text-gray-400 group-hover:text-green-500 transition-colors">â†’</span>
                       </div>
                       <h4 className="font-bold text-lg text-gray-900 mb-2">Tembakau TSC</h4>
                       <p className="text-sm text-gray-600 mb-3">Kelola produk Tembakau Siap Campur</p>
@@ -1471,7 +1471,7 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
                         <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center group-hover:bg-purple-500 transition-colors">
                           <Package className="text-purple-600 group-hover:text-white transition-colors" size={24} />
                         </div>
-                        <span className="text-gray-400 group-hover:text-purple-500 transition-colors">→</span>
+                        <span className="text-gray-400 group-hover:text-purple-500 transition-colors">â†’</span>
                       </div>
                       <h4 className="font-bold text-lg text-gray-900 mb-2">Tembakau TSG</h4>
                       <p className="text-sm text-gray-600 mb-3">Kelola produk Tembakau Siap Giling</p>
@@ -1522,7 +1522,7 @@ export function CMSPanel({ activeSection }: CMSPanelProps) {
                               color: page.color
                             }} />
                           </div>
-                          <span className="text-gray-400 group-hover:text-amber-500 transition-colors">→</span>
+                          <span className="text-gray-400 group-hover:text-amber-500 transition-colors">â†’</span>
                         </div>
                         <h4 className="font-bold text-lg text-gray-900 mb-2">{page.title}</h4>
                         <p className="text-sm text-gray-600 mb-3">{page.description}</p>
@@ -2359,3 +2359,4 @@ export function ProductForm({ product, onSave, onCancel, filterCategories }: { p
     </div>
   );
 }
+
